@@ -1,0 +1,48 @@
+/*
+Theme Name: 2019 Skeleton : A Twenty Nineteen Child
+Theme URI: https://github.com/PhantomThemes/2019-skeleton
+Template: twentynineteen
+Author: PhantomThemes
+Author URI: https://phantomthemes.com/
+Description: A new Gutenberg-ready theme.
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0
+
+*/
+
+
+/* Header */
+.site-branding {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.site-title{
+	font-size: 3rem;
+}
+
+/* Navigation */
+.main-navigation {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #0073aa;
+    border-top: 3px solid #0073aa;
+}
+.main-navigation ul.main-menu > li {
+    line-height: 50px;
+}
+.main-navigation .main-menu > li > a {
+    font-weight: 400;
+    padding: 9px;
+}
+
+/* Footer */
+footer.site-footer {
+    background-color: #222;
+    color: #efefef;
+}
+
+
+/* Widgets */
+.widget_archive ul li, .widget_categories ul li, .widget_meta ul li, .widget_nav_menu ul li, .widget_pages ul li, .widget_recent_comments ul li, .widget_recent_entries ul li, .widget_rss ul li{
+	font-weight: 400;
+}
